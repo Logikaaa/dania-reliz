@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Кошик</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+    <div class="header-top">
+        <div>
+            <p class="header-text">Наткушене</p>
+            <p class="header-text">Яблуко</p>
+        </div>
+        <a href="" class="shop-container">
+            <img src="./img/shop.png">
+            <div class="cart-count">0</div>
+        </a>
+    </div>
+    </header>
+
+    <main>
+        <div class="cart-items"></div>
+        <div class="total-block">
+        <button id="clear-cart">Очистити кошик</button>
+        <p>Загальна сума: <span id="total-price">0</span> грн</p>
+        </div>
+    </main>
+
+    <script src="./cart.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

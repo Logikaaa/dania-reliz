@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Roboto';
+    margin: auto;
+    height: 100%;
+}
+
+.header-text{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cart-count{
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 66px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    padding-top: 47px;
+}
+
+.hero{
+    background-image: url('./img/hero.png');
+    height: 600px;
+    background-size: cover;
+
+}
+
+.hero-title{
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 49px;
+}
+
+.hero-btn{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 463px;
+    height: 101px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.product{
+    width: 400px;
+    text-align: center;
+}
+
+.product-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.price{
+    color: #FF0004;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.add-to-cart{
+    background-color: white;
+    border: none;
+}
+
+.price-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.text{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+main p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.total-block {
+    width: 1180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.cart-item {
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#clear-cart {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transform: scale(1);
+    transition: transform 0.2s linear;
+}
